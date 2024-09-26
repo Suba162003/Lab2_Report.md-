@@ -1,0 +1,69 @@
+# Lab 2: Implementation of Network Topologies
+
+## Objective
+To implement and understand different network topologies.
+
+## Materials Required
+- Packet Tracer software
+
+## Theory
+### Overview of Various Network Topologies
+1. **Bus Topology**
+   - All devices are connected to a single central cable, known as the bus.
+   - **Advantages**: Simple to set up and cost-effective for small networks.
+   - **Disadvantages**: Limited cable length; if the bus fails, the entire network goes down.
+
+2. **Star Topology**
+   - All devices are connected to a central hub or switch.
+   - **Advantages**: Easy to install and manage; failure of one device does not affect others.
+   - **Disadvantages**: If the central hub fails, the entire network is affected.
+
+3. **Ring Topology**
+   - Devices are connected in a circular format, where each device is connected to two others.
+   - **Advantages**: Predictable performance; easy to add devices.
+   - **Disadvantages**: A failure in any device or connection can disrupt the entire network.
+
+4. **Mesh Topology**
+   - Devices are interconnected, with multiple paths between any two devices.
+   - **Advantages**: High redundancy and reliability.
+   - **Disadvantages**: Complex to install and manage; requires a lot of cabling.
+
+5. **Hybrid Topology**
+   - A combination of two or more different topologies.
+   - **Advantages**: Flexible and scalable.
+   - **Disadvantages**: Can be complicated to design and manage.
+
+## Procedure
+1. **Open Packet Tracer**.
+
+2. **Implement a Bus Topology**:
+   - Create a simple network with three devices connected to a single cable.
+   - **Test**: Use the ping command between devices to confirm connectivity.
+
+3. **Implement a Star Topology**:
+   - Connect three devices to a central switch using straight-through cables.
+   - **Test**: Ping between devices to ensure successful communication.
+
+4. **Implement a Ring Topology**:
+   - Arrange three devices in a circular pattern, connecting each device to its neighbors.
+   - **Test**: Verify connectivity by pinging each device from others.
+
+5. **Implement a Mesh Topology**:
+   - Connect four devices to each other, ensuring each device has a direct connection to every other device.
+   - **Test**: Perform ping tests to check connectivity across all devices.
+
+## Observations
+- **Bus Topology**: All devices communicated successfully.
+- **Star Topology**: All devices communicated successfully through the central switch.
+- **Ring Topology**: Successful communication was verified between all devices.
+- **Mesh Topology**: All devices were able to communicate without issues.
+
+## Conclusion
+Each topology has distinct characteristics and applications:
+- **Bus Topology** is easy and cost-effective for small networks but has a single point of failure.
+- **Star Topology** is robust but depends on the central hub.
+- **Ring Topology** offers predictable performance but is sensitive to disruptions.
+- **Mesh Topology** provides redundancy but is complex to manage.
+- **Hybrid Topology** combines various features but can complicate design.
+
+Understanding these topologies is crucial for designing efficient and reliable networks tailored to specific needs.
